@@ -14,7 +14,7 @@ from paramiko import SSHClient
 from scp import SCPClient
 
 from config import user_db, passwd_db, user_linux, passwd_linux
-from integration__data_transformation_from_database_old_employee_2_to_new_json_format import main_converter
+from integration__transform_old_json_v1_to_new_format_w_python_for_database import main_converter
 
 
 def convert_xlsx_csv(file):
